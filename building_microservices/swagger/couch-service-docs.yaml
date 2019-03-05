@@ -34,7 +34,7 @@ definitions:
     type: object
     properties:
       _id:  { type: string }
-      prodname: { type: string }
-      catagory: { type: string }
-      quantity: 
+      version: { type: string }
+      description: { type: string }
+      lastcommitsha: { type: string }
         type: number

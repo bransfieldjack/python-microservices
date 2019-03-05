@@ -1,12 +1,17 @@
 import requests
 product = {
-        "_id":"123",
-        "prodname": "First product",
-        "catagory": "catagory1",
-        "quantity": "4"
+  "myapplication": [
+    {
+      "version": "1.0",
+      "description": "pre-interview technical test",
+      "lastcommitsha": "abc57858585"
+    }
+  ]
         }
 
 class CouchProvider(object):
     
     def read_product(self) -> str:
         return product,200
+        
+        
